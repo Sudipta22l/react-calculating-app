@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+.header{
+  padding: 20px 30px;
+  background: #007dff;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftName{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  display: inline-block;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 0px 0px 5px #333;
+}
+
+.currentDate{
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 0px 0px 3px #333;
+}
+
+.curDt, .curTime{
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}

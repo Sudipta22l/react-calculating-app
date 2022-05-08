@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+.exp{
+  width: 100%;
+  border-bottom: 1px solid #56b0fe;
+  overflow: hidden;
+  background: rgba(255,255,255,.6);
+  transition: all .5s;
+}
+
+.unit{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px 20px;
+}
+
+.exp:hover{
+  background: rgba(255,255,255,.8);;
+  transition: all .5s;
+}
+
+.dtlsArea{
+  width: 75%;
+}
+.dtlsArea input{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 5px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 16px;
+}
+.dtlsArea input:read-only{
+  background: none;
+  padding: 0 1px;
+  color: #0056b0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.amtArea{
+  width: 23%;
+}
+.amtArea input{
+  width: 100%;
+  padding:8px 5px;
+  border: none;
+  outline: none;
+  text-align: right;
+  border-radius: 5px;
+  color: #000;
+  font-size: 16px;
+}
+.amtArea input:read-only {
+  background: none;
+  padding: 0;
+  color: #ad5c00;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.actions{
+  position: absolute;
+  top: -100%;
+  right: 2px;
+  display: flex;
+  flex-flow: row;
+  opacity: .5;
+}
+.exp:hover .actions{top: 2px; transition: all .5s;}
+.actions:hover{opacity: 1;}
+
+.editIcon{
+  width: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  /* border: 1px solid #fff; */
+  background: #007dff;
+  cursor: pointer;
+  margin-right: 3px;
+}
+.editIcon:hover{
+  background: #0767cc;
+}
+
+.deleteIcon{
+  width: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  /* border: 1px solid #fff; */
+  background: #f52c62;
+  cursor: pointer;
+}
+.deleteIcon:hover{
+  background: #d71649;
+}
+
+.saveArea{
+  display: flex;
+  justify-content: center;
+}
+
+.saveBtn{
+  /* border: 1px solid #666; */
+  background: #008800;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 0px 3px 10px;
+  cursor: pointer;
+  /* display: none; */
+}
+.saveBtn:hover{background: #127512;}
+
+.cancelBtn{
+  /* border: 1px solid #666; */
+  background: #940f0f;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 0px 3px 10px;
+  cursor: pointer;
+}
+.cancelBtn:hover{background: #ae0303;}

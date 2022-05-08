@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.headerBS {
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding: 20px 30px;
+  background: rgb(85,177,254);
+  background: linear-gradient(90deg, #007dff 0%, #248efc 100%);
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 3px 5px #0251a2;
+}
+
+.headerBS .title {
+  font-size: 18px;
+}
+
+.yearSelection, .monthSelection{
+  width: 23%;
+  margin-right: 2%;
+}
+.btnHolder{
+  width: 15%;
+}
+.yearSelect, .monthSelect{
+  width: 100%;
+  padding: 5px 10px;
+  outline: none;
+  border:none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  box-shadow: 1px 1px 3px #0251a2;
+}
+
+.showBtn{
+  width: 100%;
+  background: #f4a040;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-weight: bold;
+  box-shadow: 1px 1px 3px #0251a2;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+}
+.showBtn:hover {
+  background: #0064ff;
+}
+.totalAreaofBS{
+  overflow: hidden;
+  display: none;
+}
+
+.balanceSheetHead{
+  padding: 20px;
+  box-shadow: 0 0px 10px #0251a2;
+  color: #fff;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.mainareabs{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-flow: row;
+  align-items: stretch;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.depositSide, .expenseSide{
+  width: 49.9%;
+}
+
+.deposHead{
+  background: #03bf03;
+  padding: 15px 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 0 0 3px #333;
+}
+.expHead{
+  background: #f4a040;
+  padding: 15px 10px;
+  color: #fff;
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 0 0 3px #333;
+}
+.bsunit{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-shadow: 0 1px 2px #333;
+}
+.unitDate{
+  width:100px;
+}
+.unitDetail{
+  flex:1;
+}
+
+.bsFooter{
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  align-items: stretch;
+  margin-bottom: 200px;
+}
+.bsAmtArea{
+  border-top: 1px solid #fff;
+  border-bottom: 3px double #fff;
+}
+.bsFooter .bsunit{
+  border: none;
+}
+.balanceAmtExp, .balanceAmtDepos{
+  font-family: 'Dancing Script', cursive;
+  font-size: 26px;
+  color: #3eda3e;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #333;
+  display: none;
+}
+.balanceAmtDepos{
+  color: #f4a040;
+}
+.finalAmt{
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px #333;
+}
+.bal{
+  font-family: 'Montserrat Alternates', sans-serif;
+  display: inline-block;
+  padding-left: 30px;
+  font-size: 18px;
+}

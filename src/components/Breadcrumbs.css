@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+.breadcrumb{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.breadcrumb li{
+  padding: 0 0px;
+  margin-left: -24px;
+}
+
+.breadcrumb li a{
+  text-decoration: none;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  /* background: red; */
+  padding: 0 25px 0 26px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+}
+
+.leftBC{
+  height: 35px;
+  width: 35px;
+  background: #0064ff;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -17.5px;
+  left: 10px;
+}
+.leftBC1{
+  height: 35px;
+  width: 35px;
+  background: #0064ff;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 31.5px;
+  left: 10px;
+}
+.textBC{
+  height: 50px;
+  line-height: 50px;
+  padding:0 40px 0 50px;
+  background: #0064ff;
+}
+.homeIcon{
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.rightBC{
+  height: 35px;
+  width: 35px;
+  background: #0064ff;
+  transform: rotate(-45deg);
+  position: absolute;
+  z-index: 2;
+  right: 8px;
+}
+
+.breadcrumb li a:hover div, .breadcrumb li:last-child a div {
+  background: #f4a040;
+}
+
+.breadcrumb li:first-child a .textBC {
+  padding-left: 40px;
+}

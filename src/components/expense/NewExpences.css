@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+.blockArea, .pinTop{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,.65);
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 5;
+}
+.pinTop{
+  background: rgba(0,0,0,.2);
+}
+
+.blockArea .newPannel{
+  position: absolute;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 30px;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 5vmin 10vmin; */
+}
+.pinTop .newPannel{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background: #fff;
+  box-shadow: 0px 0px 9px #000;
+}
+.blockArea .newPannelCloseBtn, .pinTop .newPannelCloseBtn{
+  position: absolute;
+  top: -10px;
+  right: -17px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background: #f4a040;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #aaa;
+  cursor: pointer;
+  overflow: hidden;
+}
+.blockArea .newExpPinToTop, .pinTop .newExpPinToTop {
+  position: absolute;
+  top: -10px;
+  left: -17px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #aaa;
+  cursor: pointer;
+  overflow: hidden;
+}
+.pinTop .newPannelCloseBtn{
+  top: 2px;
+  right: 2px;
+}
+.pinTop .newExpPinToTop{
+  top: 2px;
+  left: 2px;
+}
+.blockArea .newPannelCloseBtn img, .pinTop .newPannelCloseBtn img{
+  width: 100%;
+  display: block;
+  opacity: .7;
+  transform: rotate(0deg);
+  transition: transform .5s;
+}
+
+.blockArea .newPannelCloseBtn:hover img, .pinTop .newPannelCloseBtn:hover img{
+  transform: rotate(180deg);
+  transition: transform .5s;
+}
+
+.blockArea .pannelHead, .pinTop .pannelHead{
+  background: rgb(85,177,254);
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 30px 0;
+  text-shadow: 0px 0px 3px #333;
+}
+.pinTop .pannelHead{
+  border-radius: 0;
+  padding: 10px 0;
+}
+
+.pinTop .form {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.blockArea .fldArea{
+  width: 100%;
+  padding: 20px;
+}
+.pinTop .fldArea{
+  width: 100%;
+  padding: 20px 10px;
+}
+.pinTop .pannelFooter{
+  padding: 20px 10px;
+}
+
+.inputFld{
+  width: 100%;
+  padding: 15px 10px;
+  border-radius: 10px;
+  border: 1px solid #0064ff;
+  outline: none;
+}
+
+.blockArea .pannelFooter{
+  background: rgb(85,177,254);
+  padding: 40px 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+.submit_button{
+  background: #f4a040;
+  color:#fff;
+  border:none;
+  padding:15px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px #333;
+}
+.submit_button:hover{
+  background: #0064ff;
+  box-shadow: 0px 0px 4px #333;
+}

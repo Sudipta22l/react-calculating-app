@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+.mainArea{
+  padding: 5vh 4vw;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.containtArea{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+.cardDisp{
+  width: 19%;
+  min-width: 250px;
+  margin: .5%;
+  /* border: 1px solid #333; */
+  box-shadow: 3px 4px 5px -3px #2b4255;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all .5s;
+  text-decoration: none;
+}
+.cardDisp:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 2px #333;
+  transition: all .5s;
+}
+
+.cardInfo{
+  width: 100%;
+  background: #007dff;
+  padding: 30px 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px #333;
+}
+
+.cardAmt{
+  width: 100%;
+  background: #f4a040;
+  padding: 30px 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px #333;
+}
+.headline{
+  padding:20px 20px;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 0px 0px 3px #333;
+}
