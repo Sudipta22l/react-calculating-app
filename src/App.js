@@ -66,7 +66,7 @@ const App = () => {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Page data={appData} setShowBtn={setShowBtn} />} />
+          <Route path="/react-calculating-app" element={<Page data={appData} setShowBtn={setShowBtn} />} />
           <Route path='/bs' element={<BalanceSheet setShowBtn={setShowBtn} />} />
           <Route path="/exp" element={<Years data={appData} />} />
           <Route path="/depos" element={<DeposYear data={depositData} />} />

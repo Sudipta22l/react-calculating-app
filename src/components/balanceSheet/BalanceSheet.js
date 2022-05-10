@@ -102,7 +102,7 @@ const BalanceSheet = (props) => {
 
   useEffect(() => {
     props.setShowBtn(false);
-  }, []);
+  }, [props]);
 
   return (
 

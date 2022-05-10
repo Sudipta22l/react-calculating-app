@@ -19,7 +19,7 @@ const Expences = (props) => {
     }
 
     props.updateTotalOnAddNewItem.current = updatedTotal;
-  }, []);
+  }, [params, props]);
 
   const [currentDayData, setCurrentDayData] = useState(getDayData(params.yearId, params.monthId, params.dayId));
 

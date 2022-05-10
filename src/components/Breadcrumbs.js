@@ -8,7 +8,7 @@ const Breadcrumbs = (props) => {
   return (
 
     <ul className="breadcrumb">
-      <li><Link to={`/`}>
+      <li><Link to={`/react-calculating-app`}>
         <div className="textBC"><img className="homeIcon" src={HomeIcon} alt="Home" /></div>
         <div className="rightBC"></div>
       </Link></li>

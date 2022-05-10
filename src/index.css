@@ -12,7 +12,7 @@ body {
 }
 #root{
   min-height: 100vh;
-  /* background: rgb(85,177,254);
-  background: linear-gradient(146deg, rgba(85,177,254,1) 10%, rgba(111,88,254,1) 100%); */
-  background: red;
+  background: rgb(85,177,254);
+  background: linear-gradient(146deg, rgba(85,177,254,1) 10%, rgba(111,88,254,1) 100%);
+  /* background: red; */
 }

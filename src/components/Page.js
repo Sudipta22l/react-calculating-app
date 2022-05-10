@@ -23,7 +23,7 @@ const Page = (props) => {
 
   useEffect(() => {
     props.setShowBtn(true);
-  }, []);
+  }, [props]);
 
   return(
     <>
