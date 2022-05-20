@@ -43,17 +43,17 @@ const Page = (props) => {
             <div className="cardAmt">Add new Deposit</div>
           </Link>
 
-          <Link to='/depos' className="cardDisp">
+          <Link to='/react-calculating-app/depos' className="cardDisp">
             <div className="cardInfo">Deposit</div>
             <div className="cardAmt">View All Deposit</div>
           </Link>
 
-          <Link to='/exp' className="cardDisp">
+          <Link to='/react-calculating-app/exp' className="cardDisp">
             <div className="cardInfo">Expenses</div>
             <div className="cardAmt">View All Expenses</div>
           </Link>
 
-          <Link to='/bs' className="cardDisp">
+          <Link to='/react-calculating-app/bs' className="cardDisp">
             <div className="cardInfo">Balance Sheet</div>
             <div className="cardAmt">View All Transaction</div>
           </Link>

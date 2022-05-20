@@ -7,7 +7,7 @@ const Years = (props) => {
 
   // calculating how many years entred in database
   let years = getYears();
-  
+
   const breadcrumb = [
     {
       name : 'Expenses',
@@ -25,7 +25,7 @@ const Years = (props) => {
 
           {years.map((year, index) =>
             (
-              <Link to={`/${year}`} key={index} className="cardDisp">
+              <Link to={`/react-calculating-app/exp/${year}`} key={index} className="cardDisp">
                 <div className="cardInfo">Year {year}</div>
                 <div className="cardAmt">Rs. {getYearlyExpenses(year)}</div>
               </Link>

@@ -14,11 +14,11 @@ const DeposDay = () => {
   const breadcrumb = [
     {
       name : 'Deposit',
-      link : '/depos'
+      link : '/react-calculating-app/depos'
     },
     {
       name : `Year ${params.yearId}`,
-      link : `/depos/${params.yearId}`
+      link : `/react-calculating-app/depos/${params.yearId}`
     },
     {
       name : monthName[params.monthId],
@@ -37,7 +37,7 @@ const DeposDay = () => {
 
             {days.map((day, index) =>
               (
-                <Link to={`/depos/${params.yearId}/${params.monthId}/${day}`} key={index} className="cardDisp">
+                <Link to={`/react-calculating-app/depos/${params.yearId}/${params.monthId}/${day}`} key={index} className="cardDisp">
                   <div className="cardInfo">{day}</div>
                   <div className="cardAmt">Rs. {getDalyDeposit(params.yearId, params.monthId, day)}</div>
                 </Link>

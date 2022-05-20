@@ -67,15 +67,15 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/react-calculating-app" element={<Page data={appData} setShowBtn={setShowBtn} />} />
-          <Route path='/bs' element={<BalanceSheet setShowBtn={setShowBtn} />} />
-          <Route path="/exp" element={<Years data={appData} />} />
-          <Route path="/depos" element={<DeposYear data={depositData} />} />
-          <Route path="/:yearId" element={<Month />} />
-          <Route path="/depos/:yearId" element={<DeposMonth />} />
-          <Route path="/:yearId/:monthId" element={<Days />} />
-          <Route path="/depos/:yearId/:monthId" element={<DeposDay />} />
-          <Route path="/:yearId/:monthId/:dayId" element={<Expenses updateTotalOnAddNewItem={updateTotal} />} />
-          <Route path="/depos/:yearId/:monthId/:dayId" element={<Deposits updateTotalOnNewDeposit={updateTotalDeposit} />} />
+          <Route path='/react-calculating-app/bs' element={<BalanceSheet setShowBtn={setShowBtn} />} />
+          <Route path="/react-calculating-app/exp" element={<Years data={appData} />} />
+          <Route path="/react-calculating-app/depos" element={<DeposYear data={depositData} />} />
+          <Route path="/react-calculating-app/exp/:yearId" element={<Month />} />
+          <Route path="/react-calculating-app/depos/:yearId" element={<DeposMonth />} />
+          <Route path="/react-calculating-app/exp/:yearId/:monthId" element={<Days />} />
+          <Route path="/react-calculating-app/depos/:yearId/:monthId" element={<DeposDay />} />
+          <Route path="/react-calculating-app/exp/:yearId/:monthId/:dayId" element={<Expenses updateTotalOnAddNewItem={updateTotal} />} />
+          <Route path="/react-calculating-app/depos/:yearId/:monthId/:dayId" element={<Deposits updateTotalOnNewDeposit={updateTotalDeposit} />} />
 
         </Routes>
       </BrowserRouter>

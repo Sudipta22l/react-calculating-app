@@ -26,7 +26,7 @@ const DeposYear = (props) => {
 
           {years.map((year, index) =>
             (
-              <Link to={`/depos/${year}`} key={index} className="cardDisp">
+              <Link to={`/react-calculating-app/depos/${year}`} key={index} className="cardDisp">
                 <div className="cardInfo">Year {year}</div>
                 <div className="cardAmt">Rs. {getYearlyDeposit(year)}</div>
               </Link>

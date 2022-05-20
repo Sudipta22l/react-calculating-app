@@ -13,7 +13,7 @@ const Month = () => {
   const breadcrumb = [
     {
       name : 'Expenses',
-      link : '/exp'
+      link : '/react-calculating-app/exp'
     },
     {
       name : params.yearId,
@@ -33,7 +33,7 @@ const Month = () => {
 
             {months.map((month, index) =>
               (
-                <Link to={`/${params.yearId}/${month}`} key={index} className="cardDisp">
+                <Link to={`/react-calculating-app/exp/${params.yearId}/${month}`} key={index} className="cardDisp">
                   <div className="cardInfo">{monthName[month]}</div>
                   <div className="cardAmt">Rs. {getMonthlyExpenses(params.yearId, month)}</div>
                 </Link>

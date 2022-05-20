@@ -61,15 +61,15 @@ const Deposits = (props) => {
   const breadcrumb = [
     {
       name : 'Deposit',
-      link : '/depos'
+      link : '/react-calculating-app/depos'
     },
     {
       name : `Year ${params.yearId}`,
-      link : `/depos/${params.yearId}`
+      link : `/react-calculating-app/depos/${params.yearId}`
     },
     {
       name : monthName[params.monthId],
-      link : `/depos/${params.yearId}/${params.monthId}`
+      link : `/react-calculating-app/depos/${params.yearId}/${params.monthId}`
     },
     {
       name : `Date ${params.dayId}`,

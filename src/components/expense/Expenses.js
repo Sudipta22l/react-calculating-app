@@ -67,11 +67,11 @@ const Expences = (props) => {
     },
     {
       name : `Year ${params.yearId}`,
-      link : `/${params.yearId}`
+      link : `/react-calculating-app/exp/${params.yearId}`
     },
     {
       name : monthName[params.monthId],
-      link : `/${params.yearId}/${params.monthId}`
+      link : `/react-calculating-app/exp/${params.yearId}/${params.monthId}`
     },
     {
       name : `Date ${params.dayId}`,
